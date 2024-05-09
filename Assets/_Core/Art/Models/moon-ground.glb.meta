@@ -9,7 +9,7 @@ ScriptedImporter:
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 768a5a18fd6eb914f980bf85dd7b34ec, type: 3}
   importSettings:
-    materials: 1
+    materials: 0
     shaderOverrides:
       metallic: {fileID: 4800000, guid: 057d08f5d01be134593d0fe0e40c1759, type: 3}
       metallicBlend: {fileID: 4800000, guid: 7258d825fa9aac6439f21eb173b880c6, type: 3}
