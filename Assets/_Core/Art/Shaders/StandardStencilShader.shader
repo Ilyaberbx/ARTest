@@ -13,7 +13,7 @@ Shader "Custom/Stencil/Standard (Metallic)"
         _EmissionMap ("Emission", 2D) = "black" {}
         _EmissionColor ("Emission Color", Color) = (0,0,0,0)
         _AlphaCutoff ("Alpha Cutoff", Range(0,1)) = 0
-        [Enum(Equal,3, NotEqual,6)] _StencilTest("StencilTestt", int) = 6
+        [Enum(Equal,3, NotEqual,6)] _StencilComparison("StencilComparison", int) = 6
     }
     SubShader
     {
@@ -26,7 +26,7 @@ Shader "Custom/Stencil/Standard (Metallic)"
         Stencil
         {
             Ref 1
-            Comp [_StencilTest]
+            Comp [_StencilComparison]
         }
         
         CGPROGRAM
