@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "com.nianticlabs.lightship": "file:D:/Установки/ardk-upm-3.4.0.tgz",
+    "com.nianticlabs.lightship": "https://github.com/niantic-lightship/ardk-upm.git",
     "com.unity.collab-proxy": "2.2.0",
     "com.unity.feature.mobile": "1.0.0",
     "com.unity.ide.rider": "3.0.26",
@@ -11,6 +11,7 @@
     "com.unity.timeline": "1.6.5",
     "com.unity.ugui": "1.0.0",
     "com.unity.visualscripting": "1.9.1",
+    "com.unity.xr.arcore": "4.2.10",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
     "com.unity.modules.animation": "1.0.0",
@@ -42,5 +43,6 @@
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
-  }
+  },
+  "scopedRegistries": []
 }
