@@ -1,4 +1,4 @@
-namespace Dexgo.Scripts.Systems.Stencil
+namespace Dexgo.Scripts.Systems
 {
     public interface IStencilSystem
     {

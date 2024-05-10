@@ -46,6 +46,7 @@ Material:
     - _BumpScale: 1
     - _Metallic: 0
     - _Roughness: 0.5
+    - _StencilComparison: 6
     - _StencilTest: 6
     m_Colors:
     - _Color: {r: 0.47578004, g: 0.47578004, b: 0.47578004, a: 1}

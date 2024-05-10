@@ -17,6 +17,8 @@ Shader "Custom/Stencil/Standard (Metallic)"
     }
     SubShader
     {
+        ZWrite Off
+        
         Tags
         {
             "RenderType"="Opaque"

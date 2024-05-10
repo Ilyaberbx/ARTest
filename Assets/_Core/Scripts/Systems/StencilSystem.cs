@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Dexgo.Scripts.Systems.Stencil
+namespace Dexgo.Scripts.Systems
 {
     public class StencilSystem : IStencilSystem
     {
@@ -18,11 +18,10 @@ namespace Dexgo.Scripts.Systems.Stencil
         {
             foreach (var renderer in _renderers)
             {
-                var propertyBlock = new MaterialPropertyBlock();
-                
-                propertyBlock.SetInt(StencilComparison, (int)comparison);
-                
-                renderer.SetPropertyBlock(propertyBlock);
+                foreach (var material in renderer.sharedMaterials)
+                {
+                    material.SetInt(StencilComparison, (int)comparison);
+                }
             }
         }
     }

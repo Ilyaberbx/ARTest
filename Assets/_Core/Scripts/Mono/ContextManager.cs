@@ -2,6 +2,6 @@ using UnityEngine;
 
 namespace Dexgo.Scripts.Mono
 {
-    public class Context : MonoBehaviour
+    public class ContextManager : MonoBehaviour
     { }
 }
